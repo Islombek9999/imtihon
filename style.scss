@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container-fluid{
+    .header-4{
+        display: none;
+    }
+}
 
 .top{
     display: flex;
@@ -495,68 +500,106 @@ color: #222222;
     }
 }
 
-@media (min-width: 320px) and (max-width: 640px) {
-    .header {
-        .header__left {
-            img {
-                display: none;
+// @media (min-width: 320px) and (max-width: 640px) {
+//     .header {
+//         .header__left {
+//             img {
+//                 display: none;
 
+//             }
+//         }
+
+//         .header__right {
+//             display: flex;
+//             justify-content: space-between;
+
+//             .header__right-phone {
+//                 display: none;
+//             }
+
+//             .header__right-item {
+//                 display: none;
+//             }
+//         }
+//     }
+
+//     .header__bottom-search {
+//         width: 45%;
+//     }
+
+//     .content-2 {
+//         position: absolute;
+//         width: 297px;
+//         height: 464px;
+//         right: 128px;
+//         top: 16px;
+//     }
+
+//     .content-3 {
+//         display: none;
+//     }
+
+//     .all__box {
+//         display: none;
+//     }
+
+//     .alll__box {
+//         display: flex;
+
+//         .alll__box-2 {
+//             position: relative;
+
+//             img {
+//                 position: absolute;
+//                 top: 0;
+//                 right: 500px;
+//             }
+//         }
+//     }
+
+//     .none {
+//         display: none;
+//     }
+
+//     .footer__item {
+//         display: inline-block;
+//     }
+//     .container-fluid{
+//         .content{
+//             .carouselExampleControls{
+//                 .carousel-inner{
+//                     .slder{
+//                         display: flex;
+//                         flex-wrap: wrap;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+@media (min-width:960.1px) and (max-width:1280px) {
+    .container-fluid{
+        .header-4{
+            display: block;
+        }
+        .class{
+            display: none;
+            .header__left{
+                display: none;
+            }
+            .header__center{
+                display: none;
+            }
+            .header__right{
+                display: none;
             }
         }
-
-        .header__right {
-            display: flex;
-            justify-content: space-between;
-
-            .header__right-phone {
-                display: none;
-            }
-
-            .header__right-item {
-                display: none;
-            }
+        .header__end-item{
+            display: none;
+        }
+        .header__bottom-search{
+            display: none;
         }
     }
-
-    .header__bottom-search {
-        width: 45%;
-    }
-
-    .content-2 {
-        position: absolute;
-        width: 297px;
-        height: 464px;
-        right: 128px;
-        top: 16px;
-    }
-
-    .content-3 {
-        display: none;
-    }
-
-    .all__box {
-        display: none;
-    }
-
-    .alll__box {
-        display: flex;
-
-        .alll__box-2 {
-            position: relative;
-
-            img {
-                position: absolute;
-                top: 0;
-                right: 500px;
-            }
-        }
-    }
-
-    .none {
-        display: none;
-    }
-
-    .footer__item {
-        display: inline-block;
-    }
+    
 }
